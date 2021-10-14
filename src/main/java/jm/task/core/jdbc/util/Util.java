@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class Util {
     // реализуйте настройку соеденения с БД
     private static final String rootName = "root";
-    private static final String password = "Aa02083125";
+    private static final String password = "@Kfcnjxrf979";
     private static final String connectionURL = "jdbc:mysql://localhost:3306/usertest";
 
     public static Connection getConnection() {
