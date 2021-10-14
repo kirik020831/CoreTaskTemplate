@@ -68,11 +68,9 @@ public class UserDaoJDBCImpl implements UserDao {
             e.printStackTrace();
         } finally {
             try {
-
                 if (connection != null) {
                     connection.close();
                 }
-
             } catch (SQLException e) {
                 e.printStackTrace();
             }
@@ -90,11 +88,9 @@ public class UserDaoJDBCImpl implements UserDao {
             e.printStackTrace();
         } finally {
             try {
-
                 if (connection != null) {
                     connection.close();
                 }
-
             } catch (SQLException e) {
                 e.printStackTrace();
             }
@@ -122,11 +118,9 @@ public class UserDaoJDBCImpl implements UserDao {
             e.printStackTrace();
         } finally {
             try {
-
                 if (connection != null) {
                     connection.close();
                 }
-
             } catch (SQLException e) {
                 e.printStackTrace();
             }
@@ -144,11 +138,9 @@ public class UserDaoJDBCImpl implements UserDao {
             e.printStackTrace();
         } finally {
             try {
-
                 if (connection != null) {
                     connection.close();
                 }
-
             } catch (SQLException e) {
                 e.printStackTrace();
             }
